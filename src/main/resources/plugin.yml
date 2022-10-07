@@ -1,0 +1,6 @@
+name: TechCode-AntyRedstone
+version: '${project.version}'
+main: store.techcode.Main
+api-version: 1.16
+authors: [ TechCode ]
+website: techcode.store
