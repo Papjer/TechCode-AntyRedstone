@@ -27,7 +27,7 @@ public final class Main extends JavaPlugin implements Listener {
             data.setLit(false);
             e.getBlock().setBlockData(data);
         }
-        if(mat.equals(Material.REDSTONE_WIRE) || mat.equals(Material.OAK_BUTTON) || mat.equals(Material.STONE_BUTTON) || mat.equals(Material.BIRCH_BUTTON) || mat.equals(Material.ACACIA_BUTTON) || mat.equals(Material.DARK_OAK_BUTTON) || mat.equals(Material.CRIMSON_BUTTON) || mat.equals(Material.JUNGLE_BUTTON) || mat.equals(Material.WARPED_BUTTON) || mat.equals(Material.ACACIA_BUTTON) || mat.equals(Material.POLISHED_BLACKSTONE_BUTTON) || mat.equals(Material.SPRUCE_BUTTON)) {
+        if(mat.equals(Material.REDSTONE_WIRE) || mat.equals(Material.OAK_BUTTON) || mat.equals(Material.STONE_BUTTON) || mat.equals(Material.BIRCH_BUTTON) || mat.equals(Material.ACACIA_BUTTON) || mat.equals(Material.DARK_OAK_BUTTON) || mat.equals(Material.CRIMSON_BUTTON) || mat.equals(Material.JUNGLE_BUTTON) || mat.equals(Material.WARPED_BUTTON) || mat.equals(Material.ACACIA_BUTTON) || mat.equals(Material.POLISHED_BLACKSTONE_BUTTON) || mat.equals(Material.SPRUCE_BUTTON) || mat.equals(Material.MANGROVE_BUTTON)) {
             p.sendMessage("§7Redstone jest wylaczony");
             e.setCancelled(true);
         }
